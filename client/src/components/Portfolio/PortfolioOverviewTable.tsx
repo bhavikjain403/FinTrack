@@ -118,7 +118,7 @@ export function PortfolioOverviewTable() {
           variant="outline"
           mr={10}
         >
-          Load More
+          Show less
         </Button>
       )}
       {numRowsStart !== 0 && (
@@ -129,7 +129,7 @@ export function PortfolioOverviewTable() {
           }}
           variant="outline"
         >
-          Show less
+          Load More
         </Button>
       )}
       {/*Modals for adding and editing data */}

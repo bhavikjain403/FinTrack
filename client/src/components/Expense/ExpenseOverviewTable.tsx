@@ -124,7 +124,7 @@ export function ExpenseOverviewTable() {
           variant="outline"
           mr={10}
         >
-          Load More
+          Show less
         </Button>
       )}
       {numRowsStart !== 0 && (
@@ -135,7 +135,7 @@ export function ExpenseOverviewTable() {
           }}
           variant="outline"
         >
-          Show less
+          Load More
         </Button>
       )}
 
