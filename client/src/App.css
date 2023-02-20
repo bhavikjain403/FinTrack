@@ -1,0 +1,56 @@
+.general-layout {
+  display: flex;
+  background-color: #bac8ff;
+  min-height: 100vh;
+}
+
+.progress-container {
+  /* display: flex; */
+  justify-content: center;
+  position: absolute;
+  top: 10%;
+  bottom: 50%;
+  left: 20%;
+  right: 10%;
+  /* overflow-x: hidden;
+  overflow-y: auto; */
+}
+
+.currency-icon {
+  position: relative;
+  top: 3px;
+}
+
+.currency-icon-overview {
+  position: relative;
+  top: 4px;
+}
+
+.edit-icon {
+  color: rgba(0, 0, 0, 0.568);
+}
+
+.edit-icon :hover {
+  cursor: pointer;
+}
+#tradingview_widget_wrapper>div:nth-child(2) {
+  display: none ;
+}
+#tradingview_widget_wrapper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.buttons-3-width {
+  width: 200px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.buttons-3-width>button>a {
+  color: white !important;
+  text-decoration: none;
+}
+.buttons-3-width>button {
+  margin-bottom: 10px;
+  border: solid 3px #0b5ed7;
+}

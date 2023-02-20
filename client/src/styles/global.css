@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+body {
+/* UI Properties */
+margin: 0;
+padding: 0;
+font-family: 'Mulish', sans-serif;
+font-weight: bold;
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+.navbar{
+  width: 100%;
+  background:rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  gap:10px;
+  padding: 10px;
+  position: fixed; 
+  z-index: 1;
+}
+.menu{
+  display:none;
+}
+/* Vision */
+.section-1{
+  width: 100%;
+  
+  background: url('../images/Group\ 7444.png') ;
+  background-size: 100%;
+  opacity: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap:30px;
+  flex-direction: row;
+  padding-bottom: 100px;
+  padding-left:100px;
+}
+/* Vision Section Starts */
+.vision{
+  margin-top: 3%;
+  width: 50vw;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.vision_head{
+  width: 100%;
+}
+.vision_head > .vision_header{
+  font-size:50px;
+  letter-spacing: 0px;
+  font-weight: 900 !important;
+  margin-bottom: -10px;
+}
+.vision_img{
+  margin-bottom: 2%;
+  width: 59%;
+  height: 100%; 
+}
+.vision_head > p{
+  margin-top: -8px;
+  font-size: 40px;
+  letter-spacing: 0px;
+}
+.vision_cards_group{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  margin-top: 20px;
+}
+.vision_cards{
+  width: 95%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  font-size:0.8rem;
+  padding: 15px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+/* Vision section ends */
+/* Form Section starts */
+.lead-capture-form{
+  width: 35%;
+  
+  box-shadow: 0px 16px 50px #C7C7C75F;
+  border-radius: 13px;
+  background-color: white;
+  font-weight: bold;
+  position: fixed;
+  top: 12%;
+  right: 5%;
+}
+.lead-capture-form > form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  gap: 10px;
+  padding: 20px;
+  
+}
+.lead-capture-form > form >.name-email{
+  display:flex;
+  flex-direction: row;
+  gap:20px;
+}
+.name, .email{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* #name, #email,#phone,#app-link,#monthly-revenue{
+  width: 100%;
+  height: 40px;
+  border: 1px solid #0F1B4D0F;
+  margin-top: 4px;
+  border-radius: 4px;
+  padding: 2px;
+  background-color:#F9FAFE;
+  font: normal normal normal 13px/13px Mulish;
+  font-weight: bold;
+  letter-spacing: 0px;
+  color: #435366;
+
+} */
+.lead-capture-form  .company-website label > span{
+  color: grey;
+}
+#submit-btn{
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  padding: 2px;
+  background-color: #126FED;
+  font: normal normal bold 19px/29px Mulish;  
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+.lead-capture-form a{
+  text-decoration:dashed;
+  color: #126FED;;
+}
+/* Form Section Ends */
+/* Section 2 Stats starts */
+.stats{
+  background: url('../images/2293632-04.png') ;
+  color: white;
+
+}
+.stats_container{
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content:space-around;
+  align-items:baseline;
+  padding: 50px;
+}
+.stats_container >div{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+  align-items:center;
+}
+.stats_container >div >div{
+  font-size: 35px;
+}
+.stats_container >div >p{
+  font-size: 0.9rem;
+  text-align: center;
+}
+/* Section 2 Stats ends */
+/* Section 3 Top Partners starts */
+
+.partners_container{
+  width:60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-top:10px;
+}
+.partners_head{
+  margin-top: 30px;
+  font-size: 2.1rem;
+  font-weight: 900;
+}
+.partners_cards{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin-top: 0px;
+}
+
+/* Section 3 Top Partners ends*/
+/* Section 4 Top Clients starts */
+.clients{
+  background-image: url('../images/Mask\ Group\ 65.png');
+  background-size: 100%;
+  background-color: rgb(236, 240, 245);
+}
+.clients_container{
+  width:60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-top:10px;
+  
+}
+.clients_head{
+  margin-top: 30px;
+  font-size: 2.1rem;
+  font-weight: 900;
+}
+.clients_cards{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin-top: 0px;
+}
+/* Section 4 Top Clients ends*/
+/* Section 5 Reviews starts */
+.reviews{
+  margin-top: 30px;
+  background-image: url('../images/Icon\ awesome-quote-left.png');
+  background-repeat: no-repeat;
+}
+.reviews_container{
+  width:50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-top:10px;
+}
+.reviews_head{
+  margin-top: 30px;
+  font-size: 2.1rem;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+.reviews_card{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 0px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 3px 30px #41414115;
+  padding:30px;
+  margin-bottom: 30px;
+}
+.reviews_card_text_head{
+  font-size: 1.2rem;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+.reviews_card_text_body{
+  font-size: 1rem;
+  font-weight: 400;
+  color: grey;
+}
+.reviews_card a{
+  text-decoration: none;
+}
+/* Section 5 Reviews ends */
+/* Section 6 Starts */
+.last{
+  background-color: #1A1A1A;
+  color: white;
+}
+.last_container{
+  width:55%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-top:10px;
+}
+.last_head{
+  margin-top: 30px;
+  font-size: 2.1rem;
+  font-weight: 900;
+}
+.last_head {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  
+}
+
+.last_head_img{
+  width:auto;
+  display: flex;
+  flex-direction: column;
+}
+.last_head_img > .img{
+  width:100%;
+}
+.last_body{
+  margin-top: 30px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+/* Section 6 ends */
+/* Footer css */
+footer{
+  width: 100%;
+  padding:10px ;
+  padding-left: 100px;
+  font-weight: 900 !important;
+  background-color: #41414115;
+}
+/* Making it responsive for tablets and mobiles */
+.get_started_btn{
+  display: none;
+}
+@media screen and (max-width: 820px) {
+  .navbar{
+    z-index: 1;
+  }
+  .lead-capture-form{
+    position: relative;
+    width: 80%;
+    right: 0;
+    top:0;
+  }
+  .section-1{
+    flex-direction: column;
+    padding-left: 0 !important;
+  }
+  .vision{
+    margin-top: 100px;
+    width: 80%;
+    height: 100%;
+    padding-left: 0 !important;
+  }
+  .vision_img{
+    width: 75%;
+  }
+  .stats_container,.partners_container,.clients_container,.reviews_container,.last_container,.footer{
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 0 !important;
+  }
+
+}
+@media screen and (max-width: 470px){
+  .menu{
+    display:block;
+    margin-top:0px;
+  }
+  .vision_head >div{
+    font-size: 3.3rem;
+    margin-top: 10px;
+  }
+  .lead-capture-form{
+    width: 90%;
+    margin-bottom: 0;
+  }
+  .name-email{
+    display: flex;
+    flex-direction: column !important;
+    gap: 10px;
+  }
+  .section-1{
+    padding-bottom: 30px;
+  }
+  .vision{
+    margin-top: 70px;
+    width: 90%;
+    height: 100%;
+    padding-left: 0 !important;
+  }
+  .vision_head > .vision_header{
+    font-size: 2.7rem;
+    margin-bottom: -50px !important;
+  }
+  .vision_head > p{
+    font-size: 2rem;
+  }
+  .vision_img{
+    width: 80%;
+    
+  }
+  .vision_cards_group{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+  .stats_container,.partners_container,.clients_container,.reviews_container{
+    width: 95%;
+    margin: 0 auto;
+    padding-left: 0 !important;
+    padding-left:0;
+    padding: 0px 0px;
+    padding-top:30px;
+    padding-bottom: 30px;
+  }
+  .partners_head,.clients_head,.reviews_head,.last_head{
+    font-size: 2rem;
+    text-align: center;
+  }
+  .stats_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:40px;
+  }
+  .stats{
+    background-size: cover;
+  }
+  .reviews_container{
+    width: 90%;
+  }
+  .partners_cards,.clients_cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin: auto 0;
+  }
+ .last_container,footer{
+  width: 80%;
+  margin: 0 auto;
+  padding-left: 0 !important;
+ }
+ footer{
+  background-color: #41414115;
+  width: 100%;
+  text-align: center;
+ }
+ .get_started_btn{
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  font-size: 1.2rem;
+  font-weight: 900;
+  text-decoration: none;
+ }
+ .get_started_btn  button{
+  border: none;
+  border-radius: 5px;
+  padding: 4px;
+  background-color: #126FED;
+  font: normal normal bold 1.2rem Mulish;  
+  letter-spacing: 0px;
+  color: #FFFFFF;
+ }
+}
